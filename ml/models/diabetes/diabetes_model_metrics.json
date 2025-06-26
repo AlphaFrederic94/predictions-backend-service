@@ -1,0 +1,41 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 1.0,
+  "f1_score": 1.0,
+  "auc": 1.0,
+  "number_of_features": 8,
+  "class_distribution": {
+    "diabetes": 5,
+    "no_diabetes": 5
+  },
+  "confusion_matrix": {
+    "true_negative": 5,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_positive": 5
+  },
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5
+    }
+  },
+  "feature_importance": {
+    "pregnancies": 0.05299603174603175,
+    "glucose": 0.377417328042328,
+    "blood_pressure": 0.0689251133786848,
+    "skin_thickness": 0.07373571428571428,
+    "insulin": 0.04621825396825397,
+    "bmi": 0.08227513227513228,
+    "diabetes_pedigree_function": 0.06247448979591837,
+    "age": 0.23595793650793648
+  }
+}

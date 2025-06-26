@@ -1,0 +1,431 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 0.36585365853658536,
+  "f1_score": 0.31910569105691056,
+  "number_of_features": 131,
+  "number_of_classes": 41,
+  "class_distribution": {
+    "(vertigo) Paroymsal  Positional Vertigo": 1,
+    "AIDS": 1,
+    "Acne": 1,
+    "Alcoholic hepatitis": 1,
+    "Allergy": 1,
+    "Arthritis": 1,
+    "Bronchial Asthma": 1,
+    "Cervical spondylosis": 1,
+    "Chicken pox": 1,
+    "Chronic cholestasis": 1,
+    "Common Cold": 1,
+    "Dengue": 1,
+    "Diabetes": 1,
+    "Dimorphic hemmorhoids(piles)": 1,
+    "Drug Reaction": 1,
+    "Fungal infection": 1,
+    "GERD": 1,
+    "Gastroenteritis": 1,
+    "Heart attack": 1,
+    "Hepatitis A": 1,
+    "Hepatitis B": 1,
+    "Hepatitis C": 1,
+    "Hepatitis D": 1,
+    "Hepatitis E": 1,
+    "Hypertension": 1,
+    "Hyperthyroidism": 1,
+    "Hypoglycemia": 1,
+    "Hypothyroidism": 1,
+    "Impetigo": 1,
+    "Jaundice": 1,
+    "Malaria": 1,
+    "Migraine": 1,
+    "Osteoarthristis": 1,
+    "Paralysis (brain hemorrhage)": 1,
+    "Peptic ulcer disease": 1,
+    "Pneumonia": 1,
+    "Psoriasis": 1,
+    "Tuberculosis": 1,
+    "Typhoid": 1,
+    "Urinary tract infection": 1,
+    "Varicose veins": 1
+  },
+  "classification_report": {
+    "(vertigo) Paroymsal  Positional Vertigo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "AIDS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Acne": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Alcoholic hepatitis": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1
+    },
+    "Allergy": {
+      "precision": 0.14285714285714285,
+      "recall": 1.0,
+      "f1-score": 0.25,
+      "support": 1
+    },
+    "Arthritis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Bronchial Asthma": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Cervical spondylosis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Chicken pox": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Chronic cholestasis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Common Cold": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Dengue": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Diabetes": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Dimorphic hemmorhoids(piles)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Drug Reaction": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Fungal infection": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.5,
+      "support": 1
+    },
+    "GERD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Gastroenteritis": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1
+    },
+    "Heart attack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1
+    },
+    "Hepatitis A": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hepatitis B": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hepatitis C": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hepatitis D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hepatitis E": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hypertension": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hyperthyroidism": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hypoglycemia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Hypothyroidism": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Impetigo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Jaundice": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Malaria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Migraine": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Osteoarthristis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Paralysis (brain hemorrhage)": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Peptic ulcer disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Pneumonia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Psoriasis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Tuberculosis": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Typhoid": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Urinary tract infection": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    },
+    "Varicose veins": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1
+    }
+  },
+  "feature_importance": {
+    "abdominal_pain": 0.01081260997085589,
+    "abnormal_menstruation": 0.008669734328085424,
+    "acidity": 0.00603093613762645,
+    "acute_liver_failure": 0.004336995663195585,
+    "altered_sensorium": 0.012009063466924413,
+    "anxiety": 0.0018517284502617445,
+    "back_pain": 0.00901622452662541,
+    "belly_pain": 0.00959829234531974,
+    "blackheads": 0.007938611972476547,
+    "bladder_discomfort": 0.007087317770374799,
+    "blister": 0.00781430952390566,
+    "blood_in_sputum": 0.006206618832628578,
+    "bloody_stool": 0.004971313949554356,
+    "blurred_and_distorted_vision": 0.003918441469422086,
+    "breathlessness": 0.009093962208340444,
+    "brittle_nails": 0.00448270383763688,
+    "bruising": 0.0046756916320098785,
+    "burning_micturition": 0.006289448745899973,
+    "chest_pain": 0.016655103939068553,
+    "chills": 0.011084006875763561,
+    "cold_hands_and_feets": 0.0018357827130921268,
+    "coma": 0.008923616058111736,
+    "congestion": 0.0041504223905394705,
+    "constipation": 0.007120376164855769,
+    "continuous_feel_of_urine": 0.008574919658532345,
+    "continuous_sneezing": 0.0042905025427362005,
+    "cough": 0.009646896089068187,
+    "cramps": 0.002398147074338138,
+    "dark_urine": 0.013602363475777923,
+    "dehydration": 0.0066197523328663495,
+    "depression": 0.006775690019850675,
+    "diarrhoea": 0.014191488846245657,
+    "dischromic _patches": 0.011788256430411736,
+    "distention_of_abdomen": 0.004225721877736911,
+    "dizziness": 0.005864942436138553,
+    "drying_and_tingling_lips": 0.0012203670242936534,
+    "enlarged_thyroid": 0.004766094930457155,
+    "excessive_hunger": 0.00359828821079479,
+    "extra_marital_contacts": 0.004435291386446627,
+    "family_history": 0.01381422327807848,
+    "fast_heart_rate": 0.00820603297732536,
+    "fatigue": 0.012991079268704662,
+    "fluid_overload": 0.006942414142809793,
+    "foul_smell_of urine": 0.004815250091890397,
+    "headache": 0.011618772785938362,
+    "high_fever": 0.01573428271095692,
+    "hip_joint_pain": 0.006030083021618545,
+    "history_of_alcohol_consumption": 0.0065678793638885066,
+    "increased_appetite": 0.007285559233302592,
+    "indigestion": 0.004704016820837355,
+    "inflammatory_nails": 0.004758613494994442,
+    "internal_itching": 0.014165661190939576,
+    "irregular_sugar_level": 0.0031524865919934663,
+    "irritability": 0.006988089791260405,
+    "irritation_in_anus": 0.004475091484256631,
+    "itching": 0.01709212021210983,
+    "joint_pain": 0.0137624317467316,
+    "knee_pain": 0.006858928318550177,
+    "lack_of_concentration": 0.011017379630035646,
+    "lethargy": 0.005989033566304713,
+    "loss_of_appetite": 0.011300268110342088,
+    "loss_of_balance": 0.0119907338470317,
+    "loss_of_smell": 0.004170700522482649,
+    "malaise": 0.008874588307789666,
+    "mild_fever": 0.014451958591452598,
+    "mood_swings": 0.0011875460534407417,
+    "movement_stiffness": 0.012269553851212351,
+    "mucoid_sputum": 0.006957428287921077,
+    "muscle_pain": 0.018537290583773437,
+    "muscle_wasting": 0.007348358299149082,
+    "muscle_weakness": 0.010653911325890011,
+    "nausea": 0.014854183956975336,
+    "neck_pain": 0.009646852459149433,
+    "nodal_skin_eruptions": 0.009778084270575367,
+    "obesity": 0.0027298181487551694,
+    "pain_behind_the_eyes": 0.00886969390589895,
+    "pain_during_bowel_movements": 0.004777356567085791,
+    "pain_in_anal_region": 0.0039937661005734985,
+    "painful_walking": 0.005236419736544257,
+    "palpitations": 0.007366939466250619,
+    "passage_of_gases": 0.00834354327993833,
+    "patches_in_throat": 0.006871711808606525,
+    "phlegm": 0.006056663330783767,
+    "polyuria": 0.007077439345486255,
+    "prominent_veins_on_calf": 0.007580334982827586,
+    "puffy_face_and_eyes": 0.0018507536060346564,
+    "pus_filled_pimples": 0.007088102566184526,
+    "receiving_blood_transfusion": 0.0072858825811522865,
+    "receiving_unsterile_injections": 0.007926723632398798,
+    "red_sore_around_nose": 0.00690596180619418,
+    "red_spots_over_body": 0.01078185618711052,
+    "redness_of_eyes": 0.004433420947333403,
+    "restlessness": 0.00482846170066974,
+    "runny_nose": 0.002618000790280864,
+    "rusty_sputum": 0.008440502050914319,
+    "scurring": 0.0061731621910104065,
+    "shivering": 0.007907118540078866,
+    "silver_like_dusting": 0.0052850586477224725,
+    "sinus_pressure": 0.003796939979145855,
+    "skin_peeling": 0.008588185863443861,
+    "skin_rash": 0.006930609572092053,
+    "slurred_speech": 0.006133676052434356,
+    "small_dents_in_nails": 0.004979882439879296,
+    "spinning_movements": 0.0051660331247555666,
+    "spotting_ urination": 0.008261569593584305,
+    "stiff_neck": 0.0056170580555843464,
+    "stomach_bleeding": 0.008501430189198357,
+    "stomach_pain": 0.010290120451627707,
+    "sunken_eyes": 0.007196274614544886,
+    "sweating": 0.012272221415918721,
+    "swelled_lymph_nodes": 0.009084439027195756,
+    "swelling_joints": 0.00787305641447055,
+    "swelling_of_stomach": 0.005511635554948245,
+    "swollen_blood_vessels": 0.0026938864502748594,
+    "swollen_extremeties": 0.005244959302549138,
+    "swollen_legs": 0.0061887942154345765,
+    "throat_irritation": 0.0026212621876127553,
+    "toxic_look_(typhos)": 0.007863247110973274,
+    "ulcers_on_tongue": 0.008505251970422244,
+    "unsteadiness": 0.013267667565054637,
+    "visual_disturbances": 0.004018182771936526,
+    "vomiting": 0.012690107415503016,
+    "watering_from_eyes": 0.007823614574582192,
+    "weakness_in_limbs": 0.004747806548018101,
+    "weakness_of_one_body_side": 0.007984206454778245,
+    "weight_gain": 0.003092222674767013,
+    "weight_loss": 0.013933828156396176,
+    "yellow_crust_ooze": 0.009184533851129661,
+    "yellow_urine": 0.0026176991318688126,
+    "yellowing_of_eyes": 0.013593952896152554,
+    "yellowish_skin": 0.007734028955903598
+  }
+}

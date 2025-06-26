@@ -77,17 +77,23 @@ coverage.xml
 ehthumbs.db
 Thumbs.db
 
-# Model files and large data
-*.pkl
+# Model files and large data (ALLOW ML models for CareAI)
+# *.pkl  # Allow .pkl files for ML models
 *.joblib
 *.h5
-*.model
+# *.model  # Allow .model files
 *.bin
 *.safetensors
-models/
+# models/  # Allow models directory for ML models
 checkpoints/
 data/raw/
 data/processed/
+
+# Exclude only large model files (keep small ML models)
+**/large_models/
+**/pretrained_models/
+**/*_large.pkl
+**/*_pretrained.*
 
 # Logs
 logs/
